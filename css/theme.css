@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-wrapper {
+  position: fixed;
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem;
+  top: 5px;
+  left: 5px;
+}
+
+.skill-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 5rem;
+  justify-content: center;
+  transition: all 2s ease;
+  background-color: whiteSmoke;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+ width: 100%;
+ display: flex;
+}
+
+.social {
+  position: fixed;
+  right: 10px;
+  top: 30px;
+}
+
+header {
+  margin: 80px auto;
+  width: 90%;
+  height: 100vh;
+  padding: 25vh 0;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 1s ease;
+  background-color: whiteSmoke;
+}
+
+.about {
+  margin: 5rem;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whiteSmoke;
+  border-radius: 10px;
+}
+
+.about>p {
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: justify;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.about>* {
+  padding: 0.5rem;
+}
+
+.skills * {
+  width: 33%;
+  margin: auto auto;
+}
+
+.skills {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  padding: 1.5rem;
+}
+
+h1,h2,h3,h4,h5,h6,
+header>p {
+  letter-spacing: 10px;
+}
+
+.btn {
+  background-color: rgba(255, 0, 0, 1);
+  padding: 8px 16px;
+  margin: 0 5px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  transition: opacity 1s ease, margin 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.red {
+  font-size: 5rem;
+  color: crimson;
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card>h1 {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 20rem;
+  text-align: center;
+  border-bottom: 2px dashed lightGrey;
+  border-top: 2px dashed lightGrey;
+}
+
+.circle {
+  border-radius: 50%;
+}
